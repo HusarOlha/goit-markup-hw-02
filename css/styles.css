@@ -1,0 +1,119 @@
+:root {
+    --primary-text-color:#FFFFFF;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --black-color:#000000;
+    --secondary-text-color:#757575;
+    --grey-color:rgba(255, 255, 255, 0.6);
+    --background-color:#F5F4FA;
+}
+
+body {
+        color: #212121;
+        background-color: var(--primary-text-color)
+}
+/* Колір основного тексту #212121 */
+/* Вторинний колір #757575*/
+/* Чорний #000000 */
+/* Акцент 1 #2196F3 */
+/* Білий #FFFFFF */
+/* Колір фону #FFFFFF */
+/* Вторинний колір фону #F5F5F5 */
+/* Третій колір фону #F5F4FA */
+/* Сірий колір rgba(255, 255, 255, 0.6) */
+
+.list  {
+    list-style: none;
+    
+}
+
+/* Logo */
+.logo  {
+    color: var(--black-color);
+
+}
+.logo .accent {
+    color:var(--accent-color) ;
+}
+.logo:hover {
+    color: var(--accent-color);
+}
+
+/* Site,contact-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+
+}
+.site-nav .link:hover ,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.contact-nav .cont-link {
+    color:var(--secondary-text-color);
+}
+.contact-nav .cont-link:hover ,
+.contact-nav .cont-link:focus {
+    color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+    color: var(--primary-text-color);
+    background-color: var(--black-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+.text {
+    color: var(--secondary-text-color);
+}
+
+/* Features */
+ .feature-list .title {
+    color: var(--black-color);
+ }
+ /* Work */
+
+
+/* Our team */
+.team-title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    ;
+}
+
+.button.primary {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+}
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--background-color);
+}
+/* Footer */
+.address .address-map {
+    color: var(--primary-text-color);
+    background-color: var(--black-color);
+}
+
+.address .address-map:hover,
+.address .address-map:focus {
+    color: var(--accent-color);
+}
+.address .address-cont {
+    color: #FFFFFF99 ;
+    background-color: var(--black-color);
+}
+
+.address .address-cont:hover,
+.address .address-cont:focus {
+    color: var(--accent-color);
+}
+
