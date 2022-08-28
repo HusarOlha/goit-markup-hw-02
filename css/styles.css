@@ -6,6 +6,7 @@
     --secondary-text-color:#757575;
     --grey-color:rgba(255, 255, 255, 0.6);
     --background-color:#F5F4FA;
+    --footer-color:#2F303A;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
 
 /* Logo */
 .logo  {
+        font-family: Raleway;
         color: var(--black-color);
         font-family: Raleway;
         font-size: 26px;
@@ -46,6 +48,7 @@ body {
     
     }
 .logo .accent {
+    font-family: Raleway;
         color: var(--accent-color);
         font-family: Raleway;
         font-size: 26px;
@@ -70,11 +73,6 @@ body {
     color: var(--accent-color);
     text-decoration: none;
 }
-
-.contact-nav .cont-link.current{
-    color: var(--accent-color);
-}
-
 
 .site-nav .link:hover ,
 .site-nav .link:focus {
@@ -125,6 +123,7 @@ body {
  .text {
      color: var(--secondary-text-color);
      font-weight: 400;
+     font-size: 14px;
      line-height: 1.7;
     }
  /* Work */
@@ -196,9 +195,30 @@ body {
 }
 
 /* Footer */
- .address-map {
+.footer {
+    background-color:var(--footer-color) ;
+}
+.logo-footer {
     color: var(--primary-text-color);
-    background-color: var(--black-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+
+}
+
+.accent-footer {
+    font-family: Raleway;
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+}
+ .address-map {
+    font-family: Raleway;
+    color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
@@ -211,12 +231,10 @@ body {
 }
 .address-cont {
     color: #FFFFFF99 ;
-    background-color: var(--black-color);
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
     text-decoration: none;
-        
 }
 
 .address-cont:hover,
